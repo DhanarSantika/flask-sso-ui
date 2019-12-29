@@ -56,6 +56,8 @@ def logout_sso_ui(func):
         else:
             service_address = service_protocol + "://" + service_host
 
+        func(*args, **kwargs)
+
         client = get_cas_client(service_url)
         logout_url = client.get_logout_url(redirect_url=service_address)
 
