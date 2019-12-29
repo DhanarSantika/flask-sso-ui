@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="flask-sso-ui",
-    version="0.1.0",
+    version="0.1.1",
     description="A simple SSO UI CAS wrapper for Flask",
     author="Made Wira Dhanar Santika",
     author_email="dhanar.santika@gmail.com",
